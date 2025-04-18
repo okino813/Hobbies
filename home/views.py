@@ -7,7 +7,6 @@ from .forms import ValidateAddArticle
 from .forms import NameForm
 from .forms import Search
 
-# Create your views here.
 def index(request):
     articles = Article.objects.all()
     data = {"articles" : articles, "message" : "Les articles"}
