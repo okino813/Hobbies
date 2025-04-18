@@ -1,0 +1,32 @@
+{% extends 'home/base.html' %}
+
+{% block body%}
+
+<div class="container-Add-Article-OK813">
+    <div class="content-OK813">
+        <form action="/blog/add/validate" method="post" enctype="multipart/form-data">{% csrf_token %}
+            <label>Titre
+            </label>
+                <input type="text" name="title" id="title" required>
+
+            <label>Image
+            </label>
+                <input type="file" name="picture" id="picture" required>
+
+            <label>Article
+            </label>
+                <textarea name="content" required></textarea>
+
+            <label>Auteur
+            </label>
+                <input type="text" name="author" required>
+
+            <label>Slug
+            </label>
+                <input type="text" name="slug" required>
+            <button>Ajouter l'article</button>
+        </form>
+    </div>
+</div>
+
+{%endblock%} 

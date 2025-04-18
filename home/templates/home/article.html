@@ -1,0 +1,17 @@
+{% extends 'home/base.html' %}
+
+{% block body %}
+
+<title> {{article.title}} </title>
+<div class="container-OK813">
+    <div class="content-OK813">
+        <img src="../../media/{{article.image}}">
+        <h1>{{article.title}}</h1>
+        <div class="contentHtml-OK813">
+            {{article.body|safe}}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+

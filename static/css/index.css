@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+body {
+  margin: 0;
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  color: white;
+}
+body nav {
+  background-color: rgb(116, 4, 4);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+body nav ul h1 {
+  font-family: "Reggae One", cursive;
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+body nav ul li {
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+body nav ul li a:hover {
+  color: rgb(182, 182, 182);
+}
+body nav a img {
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+body nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+body nav form {
+  margin-right: 10px;
+}
+body .main-container-OK813 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+body .main-container-OK813 .container-a-propos-OK813 {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+body .main-container-OK813 .container-a-propos-OK813 h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+body .main-container-OK813 .container-a-propos-OK813 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+body .main-container-OK813 .container-a-propos-OK813 p .highlight {
+  color: rgb(116, 4, 4);
+  font-weight: bold;
+}
+body .main-container-OK813 .container-a-propos-OK813 .social-links {
+  margin-top: 30px;
+  text-align: center;
+}
+body .main-container-OK813 .container-a-propos-OK813 .social-links a {
+  margin: 0 15px;
+  color: #333;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+body .main-container-OK813 .container-a-propos-OK813 .social-links a:hover {
+  color: rgb(116, 4, 4);
+}
+body .main-container-OK813 .form-container {
+  display: flex;
+  flex-direction: column;
+}
+body .main-container-OK813 .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+body .main-container-OK813 .form-container form input {
+  margin-bottom: 20px;
+}
+body .main-container-OK813 .form-container form button {
+  margin-top: 20px;
+}
+body .main-container-OK813 .container-listing-articles-OK813 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+}
+body .main-container-OK813 .container-listing-articles-OK813 .item-article-OK813 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 397px;
+  text-decoration: none;
+  color: white;
+}
+body .main-container-OK813 .container-listing-articles-OK813 .item-article-OK813 a {
+  text-decoration: none;
+  color: white;
+}
+body .main-container-OK813 .container-listing-articles-OK813 .item-article-OK813 a .title-OK813 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+body .main-container-OK813 .container-listing-articles-OK813 .item-article-OK813 a .author-OK813 {
+  font-size: 16px;
+  color: rgb(182, 182, 182);
+  font-style: italic;
+  text-align: end;
+}
+body .main-container-OK813 .container-listing-articles-OK813 .item-article-OK813 a img {
+  width: 100%;
+  height: 248px;
+}
+body .container-OK813 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .container-OK813 .content-OK813 {
+  border-left: 5px solid rgb(116, 4, 4);
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+body .container-OK813 .content-OK813 img {
+  width: 100%;
+}
+body .container-OK813 .content-OK813 .contentHtml-OK813 {
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+body .container-OK813 .content-OK813 h1 {
+  font-size: 30px;
+  margin: 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+body .container-Add-Article-OK813 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .container-Add-Article-OK813 .content-OK813 {
+  border-left: 5px solid rgb(116, 4, 4);
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+body .container-Add-Article-OK813 .content-OK813 form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+body .container-Add-Article-OK813 .content-OK813 form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(182, 182, 182);
+  color: black;
+}
+body .container-Add-Article-OK813 .content-OK813 form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(182, 182, 182);
+  color: black;
+}
+body .container-Add-Article-OK813 .content-OK813 form button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(116, 4, 4);
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+footer .footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+footer .footer-container p {
+  margin: 0;
+  font-size: 16px;
+}
+footer .footer-links a {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 20px;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+footer .footer-links a:hover {
+  color: rgb(116, 4, 4);
+}/*# sourceMappingURL=index.css.map */

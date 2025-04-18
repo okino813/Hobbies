@@ -1,0 +1,51 @@
+{% load static %}
+
+
+{% block header %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+    <link rel="stylesheet" href="{% static 'css/index.css'%}">
+    <!-- Facivon -->
+    <link rel="icon" href="{% static 'images/logo-okino813.png' %}" type="image/x-icon">
+    <title>My Hobbies</title>
+    <script src="https://kit.fontawesome.com/b98b4e1e1c.js" crossorigin="anonymous"></script>
+
+</head>
+<nav>
+    <a href="/"><img src="{% static 'images/logo-okino813.png' %}"></a>
+
+      <ul>
+        <h1>Mes Hobbies</h1>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/a-propos">A propos</a></li>
+      </ul>
+
+      <form method="post" action="/search">
+        {% csrf_token %}
+        <input type="search" name="search" placeholder="Search" aria-label="Search">
+        <button  type="submit">Search</button>
+      </form>
+  </nav>
+{% endblock %}
+
+{% block body %} {% endblock %}
+
+{% block footer %} 
+<footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Okino813. Tous droits réservés.</p>
+    <div class="footer-links">
+      <a href="https://github.com/okino813" title="GitHub">
+        <i class="fab fa-github"></i> Github</a>
+      <a href="https://suscorp.fr" title="Portfolio">
+        <i class="fas fa-globe"></i> Suscorp.fr</a>
+    </div>
+  </div>
+</footer>
+
+{% endblock %}

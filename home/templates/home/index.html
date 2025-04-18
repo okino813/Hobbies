@@ -1,0 +1,40 @@
+{% extends "home/base.html" %}
+{% block body %}
+<div class="main-container-OK813">
+  <h2>{{message}}</h2>
+  <div class="container-listing-articles-OK813">
+      {% for article in articles%}
+        <div class="item-article-OK813">
+            <a href="blog/article/{{article.slug}}">
+              <div class="article-OK813">
+                  <img src="../../media/{{article.image}}" class="image-OK813">
+                  <div class="title-author-OK813">
+                      <p class="title-OK813">{{article.title}}</p>
+                      <p class="author-OK813">Par {{article.author}} le {{article.date|date:'d F Y'}}</p>
+                  </div>
+              </div>
+            </a>
+          </div>
+        {% endfor%}
+        {% for search in searchs%}
+        <div class="item-article-OK813">
+          <a href="blog/article/{{search.slug}}">
+            <div class="article-OK813">
+                <img src="../../media/{{search.image}}" class="image-OK813">
+                <div class="title-author-OK813">
+                    <p class="title-OK813">{{search.title}}</p>
+                    <p class="author-OK813">Par {{search.author}} le {{search.date|date:'d F Y'}}</p>
+                </div>
+            </div>
+          </a>
+        </div>
+      {% endfor%}
+  </div>
+</div>
+
+</div>
+
+
+{% endblock%}
+</html>
+
